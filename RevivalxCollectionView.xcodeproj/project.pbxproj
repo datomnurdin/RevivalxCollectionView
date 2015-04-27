@@ -13,12 +13,12 @@
 		1663408C1A9C4DDC004AD4A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1663408B1A9C4DDC004AD4A1 /* Images.xcassets */; };
 		1663408F1A9C4DDC004AD4A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1663408D1A9C4DDC004AD4A1 /* LaunchScreen.xib */; };
 		1663409B1A9C4DDC004AD4A1 /* RevivalxCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1663409A1A9C4DDC004AD4A1 /* RevivalxCollectionViewTests.swift */; };
-		166341441A9CD9A7004AD4A1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166341431A9CD9A7004AD4A1 /* SwiftyJSON.swift */; };
 		1663414A1A9CDA1E004AD4A1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1663412F1A9CD91E004AD4A1 /* Alamofire.framework */; };
 		1663414B1A9CDA1E004AD4A1 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1663412F1A9CD91E004AD4A1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1663414F1A9CDA22004AD4A1 /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1663413E1A9CD923004AD4A1 /* Haneke.framework */; };
 		166341501A9CDA22004AD4A1 /* Haneke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1663413E1A9CD923004AD4A1 /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		166341541A9CDBDF004AD4A1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166341531A9CDBDF004AD4A1 /* CollectionViewCell.swift */; };
+		16C1D2461AEDF2CE002BC613 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C1D2451AEDF2CE002BC613 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,8 +122,8 @@
 		1663409A1A9C4DDC004AD4A1 /* RevivalxCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevivalxCollectionViewTests.swift; sourceTree = "<group>"; };
 		166341271A9CD91E004AD4A1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		166341361A9CD923004AD4A1 /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = HanekeSwift/Haneke.xcodeproj; sourceTree = "<group>"; };
-		166341431A9CD9A7004AD4A1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		166341531A9CDBDF004AD4A1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		16C1D2451AEDF2CE002BC613 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../../../iOS/RevivalxCollectionView/RevivalxCollectionView/SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +169,7 @@
 		166340811A9C4DDB004AD4A1 /* RevivalxCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				166341431A9CD9A7004AD4A1 /* SwiftyJSON.swift */,
+				16C1D2451AEDF2CE002BC613 /* SwiftyJSON.swift */,
 				166340841A9C4DDB004AD4A1 /* AppDelegate.swift */,
 				166340861A9C4DDC004AD4A1 /* ViewController.swift */,
 				166340881A9C4DDC004AD4A1 /* Main.storyboard */,
@@ -392,10 +392,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166341441A9CD9A7004AD4A1 /* SwiftyJSON.swift in Sources */,
 				166340871A9C4DDC004AD4A1 /* ViewController.swift in Sources */,
 				166341541A9CDBDF004AD4A1 /* CollectionViewCell.swift in Sources */,
 				166340851A9C4DDB004AD4A1 /* AppDelegate.swift in Sources */,
+				16C1D2461AEDF2CE002BC613 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
