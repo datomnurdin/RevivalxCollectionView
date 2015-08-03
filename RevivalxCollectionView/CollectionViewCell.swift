@@ -8,12 +8,14 @@
 
 import UIKit
 import Haneke
+import SwiftyJSON
+
 
 class CollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView:UIImageView!
     
-    var data:JSON?{
+    var data:SwiftyJSON.JSON?{
         didSet{
             self.setupData()
         }
