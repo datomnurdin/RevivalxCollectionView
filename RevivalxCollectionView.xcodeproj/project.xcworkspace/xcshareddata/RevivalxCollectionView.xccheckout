@@ -22,11 +22,11 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>67620B5EFA902936DF04070AF595B76AB0333747</key>
-		<string>../..Alamofire/</string>
+		<string>../..Alamofire</string>
 		<key>874E2EAE80069CFA867A8501AC0851095C1D30AB</key>
 		<string>../..</string>
 		<key>C93564C1AFB8B50FF58188F21182F5D0EEAD1C3F</key>
-		<string>../..HanekeSwift/</string>
+		<string>../..HanekeSwift</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/datomnurdin/RevivalxCollectionView.git</string>
@@ -40,9 +40,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>874E2EAE80069CFA867A8501AC0851095C1D30AB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RevivalxCollectionView</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>67620B5EFA902936DF04070AF595B76AB0333747</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Alamofire</string>
+			<string>RevivalxCollectionViewAlamofire</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
@@ -50,15 +58,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>C93564C1AFB8B50FF58188F21182F5D0EEAD1C3F</string>
 			<key>IDESourceControlWCCName</key>
-			<string>HanekeSwift</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>874E2EAE80069CFA867A8501AC0851095C1D30AB</string>
-			<key>IDESourceControlWCCName</key>
-			<string>RevivalxCollectionView</string>
+			<string>RevivalxCollectionViewHanekeSwift</string>
 		</dict>
 	</array>
 </dict>
