@@ -8,10 +8,12 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
+
 
 class ViewController: UIViewController {
 
-    var datas: [JSON] = []
+    var datas: [SwiftyJSON.JSON] = []
     @IBOutlet var collectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -20,8 +22,8 @@ class ViewController: UIViewController {
         
         Alamofire.request(.GET, "https://api.instagram.com/v1/tags/malaysia/media/recent?client_id=166f90e2af5d491bb44a84d12c3e0aa1").responseJSON { (request, response, json, error) in
             if json != nil {
-                var jsonObj = JSON(json!)
-                if let data = jsonObj["data"].arrayValue as [JSON]?{
+                var jsonObj = SwiftyJSON.JSON(json!)
+                if let data = jsonObj["data"].arrayValue as [SwiftyJSON.JSON]?{
                     self.datas = data
                     self.collectionView.reloadData()
                 }

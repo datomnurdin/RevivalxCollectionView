@@ -1,0 +1,6 @@
+framework module Pods_RevivalxCollectionView {
+  umbrella header "Pods-RevivalxCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
